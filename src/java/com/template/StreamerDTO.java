@@ -4,8 +4,8 @@ public class StreamerDTO {
     private int id;
     private String nome;
     private String conteudo;
-    private String plataformaTransmissao;
-    private int qtndSeguidores;
+    private String plataforma;
+    private int seguidores;
 
     public int getId() {
         return id;
@@ -31,19 +31,19 @@ public class StreamerDTO {
         this.conteudo = conteudo;
     }
 
-    public String getPlataformaTransmissao() {
-        return plataformaTransmissao;
+    public String getPlataforma() {
+        return plataforma;
     }
 
-    public void setPlataformaTransmissao(String plataformaTransmissao) {
-        this.plataformaTransmissao = plataformaTransmissao;
+    public void setPlataforma(String plataforma) {
+        this.plataforma = plataforma;
     }
 
-    public int getQtndSeguidores() {
-        return qtndSeguidores;
+    public int getSeguidores() {
+        return seguidores;
     }
 
-    public void setQtndSeguidores(int qtndSeguidores) {
-        this.qtndSeguidores = qtndSeguidores;
+    public void setSeguidores(int seguidores) {
+        this.seguidores = seguidores;
     }
 }

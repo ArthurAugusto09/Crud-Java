@@ -11,9 +11,9 @@ public class Main extends Application
     public void start(Stage stage) throws Exception
     {
         FXMLLoader loader = new FXMLLoader(Main.class.getResource("main.fxml"));
-        Scene scene = new Scene(loader.load(),600,400);
+        Scene scene = new Scene(loader.load(),600,450);
 
-        stage.setTitle("Hello");
+        stage.setTitle("Cadastro de Streamer");
         stage.setScene(scene);
         stage.show();
     }
